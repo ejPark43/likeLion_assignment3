@@ -1,0 +1,39 @@
+#login-form {
+}
+
+#login-form input {
+  width: 200px;
+  height: 40px;
+  display: inline;
+  background-color: rgb(0, 0, 0, 0.2);
+  border: 2px solid white;
+  border-radius: 10px;
+  padding-left: 5px;
+  color: white;
+}
+
+#login-form input:hover {
+  background-color: rgb(100, 100, 100, 0.2);
+}
+#login-form button {
+  width: 100px;
+  height: 45px;
+  display: inline;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 2px solid gray;
+  transition: 0.2s;
+}
+#login-form button:hover {
+  background-color: lightgray;
+}
+
+#greeting {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3rem;
+
+  text-decoration: underline;
+  /* border: 2px solid white; */
+}

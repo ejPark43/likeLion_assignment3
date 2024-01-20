@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="todo.css" rel="stylesheet" />
+    <link href="clock.css" rel="stylesheet" />
+    <link href="quotes.css" rel="stylesheet" />
+    <link href="greetings.css" rel="stylesheet" />
+    <link href="weather.css" rel="stylesheet" />
+
+    <title>Momentum</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <h2 id="clock">00:00:00</h2>
+
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="What is your name?"
+        />
+        <button>Log in</button>
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required
+        / >
+      </form>
+      <ul id="todo-list"></ul>
+      <!-- todo-list 의 리스트 내용은 자바스크립트가 채울것. 리스트 내용과 삭제버튼도 넣게 된다. -->
+
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+
+      <script src="greetings.js"></script>
+      <script src="clock.js"></script>
+      <script src="quotes.js"></script>
+      <script src="background.js"></script>
+      <script src="todo.js"></script>
+      <script src="weather.js"></script>
+    </div>
+  </body>
+</html>

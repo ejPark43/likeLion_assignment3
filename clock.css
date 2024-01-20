@@ -1,0 +1,27 @@
+#clock {
+  display: block;
+  /* margin-top: 50px;
+  margin-bottom: 0; */
+  margin: auto;
+  width: 70vw;
+
+  background-color: rgb(250, 220, 220, 0.3);
+  font-size: 10rem;
+  /* color: aliceblue;
+  text-shadow: 4px 4px skyblue; */
+  color: whitesmoke;
+  text-shadow: 4px 4px rgb(194, 164, 143);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255);
+  /* border: 2px solid rgb(255, 14, 95, 0.4); 이거 색 예쁘다*/
+  padding: auto;
+}
+
+@media (max-width: 650px) {
+  #clock {
+    font-size: 5rem;
+    width: 80vw;
+    /* color: aliceblue;
+        text-shadow: 4px 4px skyblue; */
+  }
+}

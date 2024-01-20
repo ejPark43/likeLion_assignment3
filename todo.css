@@ -1,0 +1,61 @@
+ul#todo-list {
+  padding-right: 25%;
+  padding-left: 25%;
+  list-style-type: none;
+  text-align: right;
+  /* margin-left: 20%; */
+}
+#todo-list li {
+  background-color: rgba(244, 220, 250, 0.7);
+  border-radius: 10px;
+  color: aliceblue;
+
+  text-shadow: 2px 2px black;
+  font-size: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  margin-bottom: 5px;
+
+  transition: 0.2s;
+}
+#todo-list li:hover {
+  background-color: rgba(208, 156, 215, 0.6);
+}
+
+#todo-list button {
+  background-color: rgb(229, 248, 255, 0);
+  border-radius: 5px;
+  border: 3px solid rgb(46, 65, 73, 0);
+
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  margin: 5px;
+  transition: 0.5s;
+}
+#todo-list button:hover {
+  background-color: rgb(245, 245, 245, 0.5);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#todo-form input {
+  color: black;
+  background-color: rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 2rem;
+  width: 20rem;
+  color: aliceblue;
+
+  font-size: 20px;
+  text-align: center;
+  outline: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#todo-form input::placeholder {
+  color: rgb(245, 245, 245, 0.6);
+}

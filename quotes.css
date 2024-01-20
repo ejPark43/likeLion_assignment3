@@ -1,0 +1,15 @@
+#quote {
+  display: block;
+  color: whitesmoke;
+  font-size: 20px;
+  background-color: rgb(61, 14, 95, 0.8);
+  border: 2px solid rgb(255, 255, 255, 0.8);
+  padding: 10px;
+
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  /* position: fixed; */
+
+  margin-top: flex;
+}

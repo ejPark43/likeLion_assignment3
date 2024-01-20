@@ -1,0 +1,18 @@
+#weather {
+  height: 20px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 10px;
+  text-align: right;
+}
+#weather span:first-child {
+  display: block;
+}
+
+@media (max-width: 650px) {
+  #weather span:first-child {
+    display: inline;
+  }
+}

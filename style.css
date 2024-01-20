@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  display: cover;
+}
+.hidden {
+  display: none;
+}
+
+.bgImg {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  margin: 0;
+  top: 0;
+  visibility: hidden;
+}
+.container {
+  text-align: center;
+  text-decoration: none;
+}
