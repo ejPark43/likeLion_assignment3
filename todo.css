@@ -6,11 +6,11 @@ ul#todo-list {
   /* margin-left: 20%; */
 }
 #todo-list li {
-  background-color: rgba(244, 220, 250, 0.7);
+  background-color: rgba(208, 156, 215, 0.6);
   border-radius: 10px;
-  color: aliceblue;
+  color: white;
 
-  text-shadow: 2px 2px black;
+  /* text-shadow: 2px 2px whitesmoke; */
   font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -20,7 +20,7 @@ ul#todo-list {
   transition: 0.2s;
 }
 #todo-list li:hover {
-  background-color: rgba(208, 156, 215, 0.6);
+  background-color: rgba(244, 220, 250, 0.7);
 }
 
 #todo-list button {
